@@ -1,0 +1,34 @@
+* {
+  text-align: center;
+}
+h1 {
+  color: rebeccapurple;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 30px;
+}
+
+/* solid | double | dashed */
+/* thickness of border, type of border, color */
+/* If we need to give style to more than one attribute, we can use coma. */
+.table {
+  border: 3px solid green;
+  border-collapse: collapse;
+  width: 50%; /*Percentage shows size of page */
+  /* Align center */
+  margin-left: auto;
+  margin-right: auto;
+  table-layout: fixed;
+}
+th,
+td {
+  border: 3px solid green;
+}
+th {
+  background-color: greenyellow;
+}
+tr:hover {
+  background-color: rgb(215, 215, 215);
+}
+tr:nth-child(even) {
+  background-color: rgb(238, 192, 215);
+}
