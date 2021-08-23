@@ -1,0 +1,47 @@
+* {
+  margin: 0px;
+}
+
+body {
+  /* top, right, bottom, left */
+  /* margin: 200px 30px;  -->up-down and right-left */
+  margin: 30px 20px;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: black;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.header {
+  color: white;
+  background-color: red;
+  height: 50px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.nav {
+  padding: 10px;
+  background: blueviolet;
+}
+
+.aside {
+  background-color: yellow;
+  width: 25%;
+  float: left;
+  height: 70%;
+}
+
+.main {
+  background-color: wheat;
+  width: 75%;
+  float: left;
+  height: 70%;
+}
+
+.footer {
+  padding: 30px;
+  background: grey;
+}
