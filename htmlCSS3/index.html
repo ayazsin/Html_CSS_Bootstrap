@@ -4,26 +4,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formlar</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <h1>FORMS</h1>
+    <h1>___FORMS___</h1>
+
     <form action="save.php">
-      <label for="name">Your Name:</label>
+      <label class="label" for="name">Your Name:</label>
       <input
         class="input"
         id="name"
         type="text"
         placeholder="Enter your name"
         maxlength="20"
+        name="uname"
       />
       <br />
 
-      <label for="e-mail">Email:</label>
+      <label class="label" for="e-mail">Email:</label>
       <input class="input" id="email" type="email" name="email" value="" />
       <br />
 
-      <label for="password">Password:</label>
+      <label class="label" for="password">Password:</label>
       <input
         class="input"
         id="password"
@@ -34,7 +40,7 @@
       />
       <br />
 
-      <label for="age">Your age:</label>
+      <label class="label" for="age">Your age:</label>
       <input
         class="input"
         id="number"
@@ -45,8 +51,17 @@
         min="0"
       />
       <br />
-      <input type="submit" value="Submit" />
-      <input type="button" value="Clear" />
+      <label class="label" for="address">Address:</label>
+      <textarea name="text-area" id="address" rows="10"></textarea>
+      <br />
+      <button class="btn" type="submit">
+        <i class="far fa-save"></i> Submit
+      </button>
+      <button class="btn" type="reset">
+        <i class="fas fa-trash-alt"></i> Delete
+      </button>
+
+      <!-- <button type="submit">Save</button> -->
     </form>
   </body>
 </html>
